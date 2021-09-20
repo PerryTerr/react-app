@@ -25,7 +25,7 @@ import {db} from "../base"
                         console.log(data) 
 
 
-                        // setJina(data.jina)
+                         setJina(data.jina)
                         // setUmri(data.umri)
                         // setTarehe(data.tarehe)
                         // setUtaifa(data.utaifa)
