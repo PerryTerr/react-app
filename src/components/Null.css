@@ -1,0 +1,18 @@
+.P{
+    background-color: blue;
+    height: 100vh;
+    padding: 2px;
+    text-decoration: red;
+    justify-content: space-around;
+}
+
+h1{
+    color: brown;
+    font-size: medium;
+
+}
+
+main{
+    margin-top: 70px;
+
+}
