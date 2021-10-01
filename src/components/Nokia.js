@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {db} from "../base"
-import './Body.css'
+import './Null.css'
 
 function Nokia() {
     const[posts, setPosts]=useState(
@@ -12,13 +12,23 @@ function Nokia() {
        })
     }, [])
     return (
-        <div>
-             <h1>DATA FROM FIREBASE</h1>
+        <div className="Header">
+             <h1>STUDENTS DATABASE FROM FIREBASE</h1>
             {
                 posts.map(
                     (vari)=>(
                         <div className="tab">
                         <table border="" className="tr">
+                        <thead>
+                            <tr>
+                            <th>NAME</th>
+                            <th>AGE</th>
+                            <th>BIRTHDATE</th>
+                            <th>NATIONALITY</th>
+                            <th>CONTACT</th>
+                            </tr>
+                        </thead> 
+                        <tbody>
                         <tr>
                         <td><h3>{vari.name}</h3></td>
                         <td><h3>{vari.age}</h3></td>
@@ -26,6 +36,7 @@ function Nokia() {
                         <td><h3>{vari.nationality}</h3></td>
                         <td><h3>{vari.Contact}</h3></td>
                         </tr>
+                        </tbody>
                         </table>
                         </div>
                     )

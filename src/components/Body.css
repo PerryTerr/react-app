@@ -100,16 +100,3 @@ input{
 .pull{
     background-color:red;
 }
-
-.tab{
-    justify-content: center;
-    display: grid;
-    padding: 2px;
-    margin: 4px;
-    border: 3px;  
-}
-
-tr{
-    height: 50px;
-    width: 25px;
-}

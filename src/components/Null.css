@@ -1,4 +1,10 @@
-.P{
+.Header{
+    background-color: aquamarine;
+    height: 100vh;
+    
+}
+
+P{
     background-color: blue;
     height: 100vh;
     padding: 2px;
@@ -7,7 +13,7 @@
 }
 
 h1{
-    color: brown;
+    color: blue;
     font-size: medium;
 
 }
@@ -15,4 +21,29 @@ h1{
 main{
     margin-top: 70px;
 
+}
+
+.tab{
+    justify-content: center;
+    display: grid;
+    padding: 2px;
+    margin: 4px;
+    border: 1px;  
+}
+
+tr{
+    height: 50px;
+    width: 25px;
+}
+
+td{
+    height: max-content;
+}
+
+thead{
+    color:  red;
+}
+
+table{
+    background-color: darkcyan;
 }
